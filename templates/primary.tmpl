@@ -1,0 +1,7 @@
+<!-- begin: primary.tmpl -->
+{% set dir2 = "gallery_img/big" %}
+{% set files2 = array(scandir(dir2)) %}
+{%  for file2 in files2 %}
+    dir2."/".file2
+{% endfor %}
+<!-- end: primary.tmpl →
